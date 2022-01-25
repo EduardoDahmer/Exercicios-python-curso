@@ -1,3 +1,5 @@
-numeroreal = float(input('Digite um número real: '))
-numeroaoquadrado = numeroreal ** 2
-print(f'O quadrado do {numeroreal} é {numeroaoquadrado}')
+num = float(input('Digite um número: '))
+if num >= 0:
+    print(num*num)
+else:
+    print(num*0.5)
